@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*green top line*/
+.top {
+  background-color: #76c38f;
+  height: 10px;
+  width: max-width;
+}
+/*navigation bar*/
+.navigation {
+  background-color: #290000;
+  height: 100px;
+}
+.logo_properties {
+  display: flex;
+}
+.nav_item1 {
+  background-color: #290000;
+  height: 100px;
+  display: flex;
+  flex: 1;
+  font-size: 28px;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "Georgia";
+  justify-content: left;
+}
+
+.nav_item2 {
+  background-color: #290000;
+  height: 100px;
+  display: flex;
+  flex: 2;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  font-family: "Georgia";
+  justify-content: right;
+}
+/*Circle area*/
+.circle {
+  background-color: #290000;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.circle-items {
+  padding-left: 44px;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+}
+
+.circle-item {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  padding-left: 50px;
+  background-color: #290000;
+  color: white;
+  font-family: "Georgia";
+}
+.circle2 {
+  padding-right: 44px;
+  width: 380px;
+  height: 380px;
+  background: #333333;
+  border: 20px solid #6b6b6b;
+  justify-content: center;
+}
+.circleBase {
+  border-radius: 50%;
+}
+.service {
+  background-color: #660000;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+
+.container {
+  margin: auto;
+  width: 960px;
+}
+
+.service-items {
+  display: flex;
+}
+
+.service-item {
+  width: 225px;
+  height: 300px;
+  margin: 15px;
+  padding-left: 50px;
+  background-color: white;
+}
+.smaller-items {
+  display: flex;
+}
+
+.smaller-item {
+  width: 120;
+  height: 125;
+  margin: 15px;
+  padding-left: 50px;
+  background-color: gray;
+}
+/*latest work divider line*/
+.latest_work {
+  display: flex;
+}
+.background_line {
+  justify-self: center;
+  background-color: #303030;
+  height: 4px;
+  width: 960px;
+}
+.bigger_box {
+  background-color: #303030;
+  height: 50px;
+  width: 200px;
+}
+/*under latest work*/
+.work {
+    background-color: #660000;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+.work-items {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px white;
+
+}
+
+.work-item {
+  width: 300px;
+  height: 195px;
+  margin: 8px;
+  padding-left: 50px;
+  background-color: #353535;
+}
+/*footer*/
+.footer {
+    background-color: #353535;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+.footer-items {
+  display: flex;
+  flex-wrap:nowrap;
+  border: 5px white;
+
+}
+/*copyright bar*/
+.endblock{
+    background-color: #2b2b2b;
+    text-align: center;
+}
